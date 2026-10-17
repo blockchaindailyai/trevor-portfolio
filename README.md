@@ -2,7 +2,7 @@
 
 I build software for market information, execution research and automation, with a focus on explicit state, reproducible behavior and operational failure handling.
 
-[Blockchain Daily](https://blockchaindaily.org) · [Public Python execution sample](https://github.com/blockchaindailyai/trading-engine-sample)
+Full Stack Web Development Live Example: [Blockchain Daily](https://blockchaindaily.org) · Automated Trading Engine: [Python execution sample](https://github.com/blockchaindailyai/trading-engine-sample)
 
 ## Selected work
 
@@ -11,7 +11,7 @@ I build software for market information, execution research and automation, with
 | Blockchain Daily terminal and news pipeline | React/TypeScript, subscription access, cursor-based headlines, worker queues and source provenance | [Case study](case-studies/blockchain-daily.md) |
 | NRT client work | TradingView/Pine Script indicators and dashboards | [Public showcases](case-studies/nrt.md) |
 | Python execution research | Execution modeling, risk exits and reproducible research | [Case study](case-studies/execution-research.md) · [Runnable sample](trading-engine-sample/README.md) |
-| Rackmail MCP | Mail-tool integration | [Project overview](case-studies/rackmail.md) |
+| Rackmail MCP | Mail-tool integration | [Public Source](https://github.com/blockchaindailyai/Rackspace-MCP) · [Project overview](case-studies/rackmail.md) |
 | BCDAgent | Simulation-first agent prototype; live-chain behavior unverified | [Public source](https://github.com/blockchaindailyai/bcdagent-public) · [Prototype scope and source guide](case-studies/bcd-agent.md) |
 | Rust shadow execution | Rust research alongside an authoritative Python engine | [Research subcase](case-studies/rust-shadow.md) |
 
