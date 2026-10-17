@@ -17,7 +17,7 @@ cargo clippy --offline --all-targets -- -D warnings
 
 There are no external crates, downloads, credentials, services or exchange connections. Tests use temporary synthetic files. The crate is a library; the tests are the executable demonstration.
 
-**Verification status:** source inspection completed; executable Rust tests have not run in the preparation environment because no installed Rust compiler/Cargo toolchain was found. No passing test result is claimed yet. The scoped GitHub Actions workflow runs the tests and Clippy on the hosted runner; its outcome will be linked here after verification.
+**Verified:** [GitHub Actions run 39029700368](https://github.com/blockchaindailyai/trevor-portfolio/actions/runs/39029700368) passed on 2026-10-17 for source commit `57e88de02ebc843ce43f953578fcdb9db14decae`: **4 tests passed, 0 failed**, and `cargo clippy --offline --all-targets -- -D warnings` passed. Runner: Ubuntu 24.04.5, rustc 1.99.0, Cargo 1.99.0. Local Windows execution was unavailable; these are hosted Linux results. Future workflow runs use the runner's installed toolchain and report its version.
 
 ## Exact invariants
 

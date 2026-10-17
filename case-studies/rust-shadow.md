@@ -41,7 +41,7 @@ The original daemon appends newline-terminated records, flushes the writer, and 
 
 ## Evidence and tradeoffs
 
-Two upstream tests are adapted: torn-tail repair followed by append/reopen, and rejection of a complete corrupt record. Two additional tests check failure before mutation and edge cases. The sample has no third-party dependencies and uses synthetic fixtures. See the README for commands and current verification status; test execution is pending the hosted CI run.
+Two upstream tests are adapted: torn-tail repair followed by append/reopen, and rejection of a complete corrupt record. Two additional tests check failure before mutation and edge cases. The sample has no third-party dependencies and uses synthetic fixtures. [Hosted CI verified all four tests and Clippy](https://github.com/blockchaindailyai/trevor-portfolio/actions/runs/39029700368) on Ubuntu 24.04.5 with Rust 1.99.0 at source commit `57e88de02ebc843ce43f953578fcdb9db14decae`. See the README for reproduction commands and validation limits.
 
 Recovery currently reads the whole log into memory and assumes exclusive file ownership. The excerpt leaves JSON, digest-chain, schema and snapshot validation to its caller. It does not present the synthetic test validator as production validation.
 
