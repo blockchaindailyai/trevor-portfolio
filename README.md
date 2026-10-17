@@ -17,7 +17,7 @@ I build software for market information, execution research and automation, with
 
 ## Public TradingView showcases
 
-[EARNINGS](https://www.tradingview.com/script/DqzDGWI6-Neely-River-EARNINGS/) · [TREND Moat](https://www.tradingview.com/script/CgqzZbQa-Neely-River-TREND-Moat/) · [ACCUM/DIST](https://www.tradingview.com/script/s0vXSOP2-Neely-River-ACCUM-DIST/) · [BREAKOUT](https://www.tradingview.com/script/tDr1bslF-Neely-River-BREAKOUT/) · [SPEED](https://www.tradingview.com/script/ojlRNskV-Neely-River-SPEED/)
+[CORE BEHAVIOR](https://www.tradingview.com/script/lgOiMkb9-Neely-River/) · [EARNINGS](https://www.tradingview.com/script/DqzDGWI6-Neely-River-EARNINGS/) · [TREND Moat](https://www.tradingview.com/script/CgqzZbQa-Neely-River-TREND-Moat/) · [ACCUM/DIST](https://www.tradingview.com/script/s0vXSOP2-Neely-River-ACCUM-DIST/) · [BREAKOUT](https://www.tradingview.com/script/tDr1bslF-Neely-River-BREAKOUT/) · [SPEED](https://www.tradingview.com/script/ojlRNskV-Neely-River-SPEED/)
 
 These published pages showcase client work; client source remains private.
 

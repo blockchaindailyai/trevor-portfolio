@@ -8,6 +8,7 @@ I led Neely River's TradingView implementation, translating Glenn's methodology 
 
 ## Published showcases
 
+- [Neely River CORE BEHAVIOR](https://www.tradingview.com/script/lgOiMkb9-Neely-River/)
 - [Neely River EARNINGS](https://www.tradingview.com/script/DqzDGWI6-Neely-River-EARNINGS/)
 - [Neely River TREND Moat](https://www.tradingview.com/script/CgqzZbQa-Neely-River-TREND-Moat/)
 - [Neely River ACCUM/DIST](https://www.tradingview.com/script/s0vXSOP2-Neely-River-ACCUM-DIST/)
