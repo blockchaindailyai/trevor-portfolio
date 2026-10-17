@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trading-engine-sample"
+version = "0.1.0"
+description = "Offline synthetic demonstration of a public execution-engine excerpt"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "pandas>=2.2,<4"]
+
+[tool.setuptools]
+packages = ["trading_engine_sample"]
+package-dir = {trading_engine_sample = "."}
