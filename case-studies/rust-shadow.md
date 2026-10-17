@@ -46,3 +46,9 @@ Two upstream tests are adapted: torn-tail repair followed by append/reopen, and 
 Recovery currently reads the whole log into memory and assumes exclusive file ownership. The excerpt leaves JSON, digest-chain, schema and snapshot validation to its caller. It does not present the synthetic test validator as production validation.
 
 This remains shadow-only research with Python authoritative. No production latency, profitability, live execution, custody or signing guarantee is claimed. The original proprietary designation is retained; public excerpt authorization is not a license change.
+
+## Continuing integration work
+
+The broader Python/Rust integration explores write-ahead-log serialization fidelity, conditional-controller behavior, and differential comparisons using synthetic inputs. The design keeps Python authoritative while exercising an isolated Rust path and comparing behavior across the boundary.
+
+Full entry/exit parity and end-to-end integration remain ongoing. The public recovery excerpt above is unchanged and remains the inspectable code sample; broader integration experiments are separate from its four-test suite.

@@ -16,9 +16,9 @@ I turn market methodologies and messy information flows into working software: T
 | **WilliamsBot + UTBot** | Developed trading research, execution simulation, historical-data analysis, and paper-trading infrastructure | [Case study](case-studies/execution-research.md) · [Runnable Python sample](trading-engine-sample/README.md) |
 | **Rackmail MCP** | Built an AI-to-email service with scoped OAuth access, verified drafts, retry-aware actions, and recoverable cleanup | [Case study](case-studies/rackmail.md) · [Public source](https://github.com/blockchaindailyai/Rackspace-MCP) |
 | **Rust shadow execution** | Explored a Rust execution companion to Python, including crash-safe recovery of an append-only log | [Case study](case-studies/rust-shadow.md) · [Rust implementation](rust-shadow-sample/src/lib.rs) |
-| **Market-data tooling** | Built incremental exchange-history ingestion, provider fallback, validation, and TradeStation-compatible output | [Private-project case study](case-studies/market-data.md) |
+| **Market Data Pipeline** | Built incremental exchange-history ingestion, provider fallback, validation, and TradeStation-compatible output | [Case study](case-studies/market-data.md) · [Public source](https://github.com/blockchaindailyai/market-data-pipeline) |
 | **Volatility research** | Developed multi-timeframe compression indicators and experimental breakout-probability displays in Pine Script | [Private research overview](case-studies/volatility-research.md) |
-| **BCDAgent** | Prototyped policy-controlled agents, MCP transport, and simulation-first blockchain workflows | [Private-project overview](case-studies/bcd-agent.md) |
+| **BCDAgent** | Prototyped policy-controlled agents, MCP transport, and simulation-first blockchain workflows | [Case study](case-studies/bcd-agent.md) · [Public source](https://github.com/blockchaindailyai/bcdagent-public) |
 
 ## Where engineering and markets meet
 
