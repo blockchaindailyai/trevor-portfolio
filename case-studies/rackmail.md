@@ -2,7 +2,7 @@
 
 **Python · Model Context Protocol · OAuth · Email Automation · Reliability Engineering**
 
-[View the repository](https://github.com/blockchaindailyai/Rackspace-MCP)
+[Portfolio](../README.md) · [View the repository](https://github.com/blockchaindailyai/Rackspace-MCP)
 
 ## Overview
 
@@ -60,13 +60,13 @@ Controlled draft-removal workflows allow obsolete drafts to be cleaned up while 
 
 Troubleshooting included distinguishing server-side mailbox state from what a desktop email client displays. That distinction matters when a client shows stale drafts even after the underlying mailbox has changed.
 
-These mechanisms are designed to improve reliability; they are not a claim of perfect delivery or universal compatibility across email clients.
+
 
 ## Performance Engineering
 
 Search and email workflows can involve several network requests and verification steps. Rackmail includes performance instrumentation and batched operations to make that work measurable and reduce unnecessary overhead.
 
-The focus is on identifying where time is spent, limiting redundant work, and improving responsiveness while preserving necessary verification. No unsupported latency benchmark is claimed here.
+The focus is on identifying where time is spent, limiting redundant work, and improving responsiveness while preserving necessary verification.
 
 ## Testing and Deployment
 
@@ -81,7 +81,7 @@ Deployment work included:
 
 Offline tests and deployment checks complement live integration testing; they do not replace it.
 
-The public release contains **74 files**. Its contents were verified against the prepared candidate after line-ending normalization.
+
 
 ## Engineering Skills Demonstrated
 

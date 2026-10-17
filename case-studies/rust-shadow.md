@@ -1,6 +1,6 @@
 # Rust shadow execution: recovering an append-only log
 
-[Actual Rust excerpt and tests](../rust-shadow-sample/src/lib.rs) · [Quickstart](../rust-shadow-sample/README.md) · [Pinned provenance](../rust-shadow-sample/PROVENANCE.md)
+[Portfolio](../README.md) · [Actual Rust excerpt and tests](../rust-shadow-sample/src/lib.rs) · [Quickstart](../rust-shadow-sample/README.md) · [Pinned provenance](../rust-shadow-sample/PROVENANCE.md)
 
 The Rust work explores execution behavior alongside an authoritative Python engine. Python retains execution authority. A useful engineering boundary is restart safety: a process can stop after writing only part of its next log record. Recovery must distinguish that incomplete suffix from a complete record that fails validation.
 
