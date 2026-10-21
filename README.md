@@ -17,6 +17,7 @@ I turn market methodologies and messy information flows into working software: T
 | **Rackmail MCP** | Built an AI-to-email service with scoped OAuth access, verified drafts, retry-aware actions, and recoverable cleanup | [Case study](case-studies/rackmail.md) · [Public source](https://github.com/blockchaindailyai/Rackspace-MCP) |
 | **Rust shadow execution** | Explored a Rust execution companion to Python, including crash-safe recovery of an append-only log | [Case study](case-studies/rust-shadow.md) · [Rust implementation](rust-shadow-sample/src/lib.rs) |
 | **Market Data Pipeline** | Built incremental exchange-history ingestion, provider fallback, validation, and TradeStation-compatible output | [Case study](case-studies/market-data.md) · [Public source](https://github.com/blockchaindailyai/market-data-pipeline) |
+| **Historical Volatility Compression** | Built a published Pine Script v6 indicator with a daily volatility/range composite, expanding historical percentile, persistence dashboard, and timing-aware alerts | [Case study](case-studies/historical-volatility-compression.md) · [TradingView indicator](https://www.tradingview.com/script/KdZS3ETR-Historical-Volatility-Compression/) · [Public source](https://github.com/blockchaindailyai/historical-volatility-compression) |
 | **Volatility research** | Developed multi-timeframe compression indicators and experimental breakout-probability displays in Pine Script | [Private research overview](case-studies/volatility-research.md) |
 | **BCDAgent** | Prototyped policy-controlled agents, MCP transport, and simulation-first blockchain workflows | [Case study](case-studies/bcd-agent.md) · [Public source](https://github.com/blockchaindailyai/bcdagent-public) |
 
@@ -37,6 +38,10 @@ The [Python sample](trading-engine-sample/README.md) packages an existing public
 ### Rust: recovery before append
 
 The [Rust sample](rust-shadow-sample/README.md) contains actual recovery logic extracted from the shadow daemon. It validates complete records before repairing a torn final record, with tests for corruption, truncation, and reopening. It has no external crate dependencies.
+
+### Pine Script: historical volatility compression
+
+The [Historical Volatility Compression source](https://github.com/blockchaindailyai/historical-volatility-compression/blob/main/VolCompression.pine) is a standalone Pine Script v6 indicator with no imported libraries. Review its daily calculation engine, expanding percentile history, completed-versus-live daily timing, and observation-keyed alert handling. [Use the published indicator](https://www.tradingview.com/script/KdZS3ETR-Historical-Volatility-Compression/) or read the [case study](case-studies/historical-volatility-compression.md).
 
 ## Published client work
 
